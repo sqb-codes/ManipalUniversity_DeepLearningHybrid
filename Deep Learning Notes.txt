@@ -1,0 +1,70 @@
+Deep Learning
+- Neural Networks
+  - Feed-forward
+  - Backpropagation
+
+1. Apply feedforward
+  - input -> hidden
+  - apply activation
+  - hidden -> output
+  - apply activation
+  - do prediction -> y_pred
+2. Back propagation
+  - calculate loss -> y - y_pred
+  - output -> hidden
+  - calculate slope
+  - update weights (Woutput)
+  - hidden -> input
+  - calculate slope
+  - update weights (Whidden)
+- Repeat Step-1 and Step-2
+- Repeat Step-1 and Step-2
+- Repeat Step-1 and Step-2
+- Repeat Step-1 and Step-2
+- Repeat Step-1 and Step-2
+
+===========================================================
+
+Genetic Algorithm (GA)
+
+- search and optimization technique
+- inspired by process of natural selection and evolution in biology
+
+- Mimics the principles of genetics which includes
+  - inheritance
+  - mutation
+  - selection
+  - crossover
+
+GA is used:
+  - Global optimization - they are effective at finding global optima
+  - Parallelism - explore multiple solutions simultaneously
+  - Adaptability - they can work with wide variety of optimization problems
+
+
+Algorithm of GA
+1. Initialization - Generate an initial population of candidate solution (also known as chromosomes)
+2. Fitness Evaluation - Each chromosome is evaluated using a fitness function that measure how close it is to optimal solution
+3. Selection - Select individuals from the population to breed based on their fitness
+4. Crossover - Combine two parent solutions to create on or more offspring
+5. Mutation - Occasionally alter offspring to maintain diversity in population
+6. Replacement - Replace old population with new population
+
+===================================================================
+
+Why combine GA with Neural Networks ?
+1. To avoid local minima
+2. No differentiation is required
+3. Hyperparameter tuning
+4. Alternative of Backpropagation
+
+
+
+
+
+
+
+
+
+
+
